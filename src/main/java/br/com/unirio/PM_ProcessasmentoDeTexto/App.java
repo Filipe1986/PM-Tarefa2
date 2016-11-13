@@ -3,11 +3,8 @@ package br.com.unirio.PM_ProcessasmentoDeTexto;
 public class App {
 	public static void main(String[] args) {
 
-		String texto = "$#@!-()*&¨%$# frases que devem mudar diferente de acordo com a "
-				+ "entrada de textos diferentes, pois estou implementando "
-				+ "um multiton. Que deve eliminar várias palavras de forma "
-				+ "como os parametros foram passados...!!!";
-		String ordem = "S, RP, RPP";
+		String texto = "$#@!-()*&¨%$# Algumas palavras no plural e outras pequenas, juntas a pontuação para testar o programa...!!!";
+		String ordem = " RP, S, RPP";
 
 		ordem = ordem.replace(" ", "").toUpperCase();
 
