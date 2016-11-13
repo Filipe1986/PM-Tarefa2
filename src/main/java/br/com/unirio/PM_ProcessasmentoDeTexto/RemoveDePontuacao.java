@@ -12,4 +12,9 @@ public class RemoveDePontuacao extends Algoritmo {
 
 	}
 
+	@Override
+	public Algoritmo clone() {
+		return new RemoveDePontuacao(nome);
+	}
+
 }

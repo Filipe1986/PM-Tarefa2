@@ -1,18 +1,13 @@
 package br.com.unirio.PM_ProcessasmentoDeTexto;
 
-public class Algoritmo {
+public abstract class Algoritmo {
 	protected String nome;
 
 	public Algoritmo(String nome) {
 		this.nome = nome;
 	}
 
-	public Algoritmo clone() {
-		return new Algoritmo(nome);
-	}
+	public abstract Algoritmo clone();
 
-	public String executa(String frase) {
-
-		return "";
-	}
+	public abstract String executa(String frase);
 }

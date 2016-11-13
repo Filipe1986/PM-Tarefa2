@@ -15,4 +15,9 @@ public class Singularizador extends Algoritmo {
 		return frase;
 	}
 
+	@Override
+	public Algoritmo clone() {
+		return new Singularizador(nome);
+	}
+
 }
