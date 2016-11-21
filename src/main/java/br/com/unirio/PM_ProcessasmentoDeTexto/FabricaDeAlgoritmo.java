@@ -28,10 +28,8 @@ public class FabricaDeAlgoritmo {
 	}
 
 	public Algoritmo cria(String nomeAlgoritmo) {
-
 		Algoritmo algoritmo = algoritmos.get(nomeAlgoritmo);
 		return algoritmo.clone();
 
 	}
-
 }
